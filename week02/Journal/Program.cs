@@ -18,7 +18,7 @@ class Program
 
         while (userSelection != "5")
         {
-            Console.WriteLine("Please select one of the following choises: \n 1. Write \n 1. Display \n 3. Load \n 4. Save \n 5. Quit");
+            Console.WriteLine("Please select one of the following choises: \n 1. Write \n 2. Display \n 3. Load \n 4. Save \n 5. Quit");
 
             Console.Write("What would you like to do? ");
             userSelection = Console.ReadLine();
