@@ -5,8 +5,6 @@ class Program
     static void Main(string[] args)
     {
 
-        Console.WriteLine("--- Polymorphism with Abstract Base Class ---");
-
         List<Shape> shapes = new List<Shape>();
 
         shapes.Add(new Square("Red", 5.0));
